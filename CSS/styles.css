@@ -37,3 +37,22 @@ body {
      border-bottom-width: 2px;
      color: teal;
  }
+
+ .foote {
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+ }
+
+ .band {
+     background-color: teal !important;
+     color: white !important;
+ }
+
+ .space{
+     padding: 2em;
+ }
+
+ .aboot {
+     padding: 2em;
+ }
