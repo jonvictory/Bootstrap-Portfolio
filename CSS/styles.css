@@ -1,17 +1,39 @@
-html {
+body {
     background-image: url('../images/BACKGROUND.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.HEADtitle {
-    height: 100%; 
-    float: right; 
-    padding: 25em, 0, 0, 0; 
-    background-color: teal; color: white;
+.nav {
+    background-color: white;
 }
 
- .nav-item nav-link active {
+.headtitle {
+    padding-left: 5px;
+    float: right; 
+    background-color: teal; 
+    color: white;
+    height: 100%;
+}
+
+ .active {
      background-color: teal !important; 
      color: white !important;
+ }
+
+ .main {
+     margin-top: 20px;
+     background-color: white;
+     overflow: auto;
+     min-height: 50%;
+ }
+
+ .row {
+     margin: 0;
+ }
+ .titl {
+     border-bottom: solid;
+     border-bottom-color: lightgray;
+     border-bottom-width: 2px;
+     color: teal;
  }
