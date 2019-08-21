@@ -2,6 +2,7 @@ body {
     background-image: url('../images/BACKGROUND.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 200px;
 }
 
 .nav {
@@ -56,3 +57,13 @@ body {
  .aboot {
      padding: 2em;
  }
+
+ .galtex {
+     text-align: center;
+ }
+
+ .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
