@@ -67,3 +67,14 @@ body {
     clear: both;
     display: table;
   }
+
+  .thumb {
+      border-style: solid;
+      border-color: black;
+      border-width: 2px;
+    box-shadow: 5px 10px;
+      height: 250px;
+      width: 250px;
+      margin-bottom: 5px;
+
+  }
